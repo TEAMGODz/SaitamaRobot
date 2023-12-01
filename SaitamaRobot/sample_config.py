@@ -14,27 +14,27 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = "29538539"  # integer value, dont use ""
+    API_HASH = "e3141eb87727600cee656cf0cf8007d6"
+    TOKEN = "6927202229:AAHMwvVvwJhmEWcUONAK_RCCLpkGvo2cFEw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 6230236721  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "𝙻𝚄𝙲𝙺𝚈"
+    SUPPORT_CHAT = "LostCorps"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1002030839245
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1002103621081
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://y2965860:xGSHMdXYftGkEoxQ@teamgodz.gaulnoy.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "rgyBQnXiwCmK1fM0yUJXPeGPv7fKK6ETbTwRE5tXB7Dz8cwrt0VaWm_FwmgjQ6D_"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
